@@ -1,0 +1,37 @@
+/* FavoritesPage.css */
+
+.favorites-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .favorites-page .section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .favorites-page .courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .favorites-page .course-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 10px); /* Two items per row */
+  }
+  
+  .favorites-page .course-link {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .favorites-page .course-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

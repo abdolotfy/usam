@@ -1,0 +1,26 @@
+/* LikeButton.css */
+
+.like-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #007bff; /* Initial background color */
+  border: 1px solid #007bff; /* Initial border color */
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 1.5em;
+  color: #ffffff; /* Text color */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.like-button:hover {
+  background-color: #0056b3; /* Darker background on hover */
+  border-color: #0056b3; /* Darker border on hover */
+}
+
+.like-button.active {
+  background-color: #4caf50; /* Green background when active */
+  color: #ffffff; /* White text color when active */
+  border-color: #4caf50; /* Green border color when active */
+}
