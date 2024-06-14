@@ -164,7 +164,7 @@ function HomePage() {
       </div>
 
       {/* Latest Courses Section */}
-      <h2 className="section-title">Latest Courses</h2>
+      <h2 className="section-title">Latest Movies</h2>
       <div className="courses">
         {latestCourses.map(course => (
           <div key={course.id} className="course-item">
@@ -180,7 +180,7 @@ function HomePage() {
       </div>
 
       {/* Recommended Courses Section */}
-      <h2 className="section-title">Recommended Courses</h2>
+      <h2 className="section-title">Recommended Movies</h2>
       <div className="courses">
         {recommendedCourses.map(course => (
           <div key={course.id} className="course-item">
